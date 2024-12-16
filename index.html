@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Modal Window</title>
+  </head>
+  <body>
+    <div class="buttons">
+      <button class="open" id="open-simple">Open simple Modal</button>
+      <button class="open" id="open-share">Open share Modal</button>
+    </div>
+    <!-- Simple Modal -->
+    <div id="simple-modal">
+      <div class="modal" id="modal"></div>
+      <div class="modal-content">
+        <button class="close" id="close-simple">&times;</button>
+        <div class="modal-content-inner">
+          <h2>Welcome to NesryaDev!</h2>
+          <p class="text">
+            let's get started. You can now use out app for free for 14 days.
+            Thank you for choosing NesryaDev.
+          </p>
+
+          <button class="btn-primary">Procceed</button>
+        </div>
+      </div>
+    </div>
+
+    <!--Share Modal-->
+    <div id="share-modal">
+      <div class="modal" id="modal"></div>
+      <div class="modal-content">
+        <button class="close" id="close-share">&times;</button>
+        <div class="modal-content-inner">
+          <h2 class="header">Share with</h2>
+          <div class="user-img">
+            <img
+              src="https://avatars.githubusercontent.com/u/100282811?v=4"
+              alt=""
+            />
+            <img
+              src="https://avatars.githubusercontent.com/u/100282811?v=4"
+              alt=""
+            />
+            <img
+              src="https://avatars.githubusercontent.com/u/100282811?v=4"
+              alt=""
+            />
+            <img
+              src="https://avatars.githubusercontent.com/u/100282811?v=4"
+              alt=""
+            />
+            <img
+              src="https://avatars.githubusercontent.com/u/100282811?v=4"
+              alt=""
+            />
+          </div>
+          <p class="text">Share link</p>
+          <div class="link">
+            <p>https://www.nesryabdulkadir.com</p>
+            <i class="fa fa-copy"></i>
+          </div>
+
+          <button class="btn-primary">Procceed</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
